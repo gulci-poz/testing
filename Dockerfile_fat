@@ -1,0 +1,3 @@
+FROM openjdk:8-jre
+COPY ./target/testing_fat.jar /home/testing_fat.jar
+CMD ["java", "-jar", "/home/testing_fat.jar"]
